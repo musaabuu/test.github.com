@@ -277,7 +277,7 @@ button:active {
     color: hsl(228, 45%, 44%); 
 }
 
-@media (max-width: 800px) {
+@media (min-width: 551px) and (max-width: 850px) {
     .container {
         display: grid;
         grid-template-columns: 1fr;
